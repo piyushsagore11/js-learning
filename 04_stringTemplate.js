@@ -15,7 +15,6 @@ var greet = "Good Morning";
 var greetInUpperCase = greet.toUpperCase();
 console.log(`${greet} in upper case is : ${greetInUpperCase}`);
 
-var str="My Name is CodingPanda.";
-console.log ('str.includes{name}');
+
 
 

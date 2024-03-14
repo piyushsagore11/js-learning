@@ -17,7 +17,7 @@ console.log("Character at index 6 is: ", charAt6);
  
 
 var charAt11 = greet.charAt(11);
-
+ 
 console.log("Character at index 11 is: ", charAt11);
 
  
@@ -46,3 +46,13 @@ var lastName= " Kharat";
 var resultConcat = firstName.concat(lastName);
 
 console.log("Concat result is:", resultConcat);
+
+console.log(`========== trim() ==================`);
+var greet = "   Good Morning   ";
+var lengthBeforeTrim = greet.length;
+console.log(` ${greet} it's length is : ${lengthBeforeTrim} `);
+
+var greetAfterTrim = greet.trim();
+var lengthAfterTrim = greetAfterTrim.length;
+console.log(` ${greetAfterTrim} it's length is : ${lengthAfterTrim} `);
+
