@@ -78,7 +78,7 @@ console.log(`Adding number at index no 3`);
 arrayNumbers.splice(3,0,55,66)
 console.log(arrayNumbers);
 
-console.log(`=======step 12=======`);
+console.log(`=======step 13=======`);
 console.log(`deleting  3 number from index no 4`);
 arrayNumbers.splice(4,3)
 console.log(arrayNumbers);
